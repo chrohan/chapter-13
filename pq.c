@@ -9,10 +9,10 @@ int main()
 
     for(i = 0; i < 14; i++)
     {
-        if(array[i] < array[0])
+        if(array[i] < min)
         min = array[i];
     }
   printf("%d\n",array[i]);
   return 0;
      
-}
+} 
